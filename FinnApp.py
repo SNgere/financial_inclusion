@@ -3,7 +3,7 @@ import streamlit as st
  
 # loading the trained model
 pickle_in = open('Fmodel.pkl', 'rb') 
-Fmodel.pkl = pickle.load(pickle_in)
+predictor = pickle.load(pickle_in)
  
 @st.cache()
   
