@@ -1,2 +1,2 @@
 PyCaret==3.0
-pip3
+streamlit==0.75.0
