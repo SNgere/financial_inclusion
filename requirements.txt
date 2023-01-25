@@ -1,1 +1,1 @@
-pycaret
+PyCaret 3.0
