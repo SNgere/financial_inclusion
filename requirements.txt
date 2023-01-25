@@ -1,2 +1,2 @@
 PyCaret==3.0
-pip==22.3.1
+pip3
