@@ -48,7 +48,7 @@ def main():
 
     # when 'Predict' is clicked, make the prediction and store it 
     if st.button("Predict"): 
-        result = prediction(Pregnancies,Glucose,BloodPressure,SkinThickness,Insulin,BMI,DiabetesPedigreeFunction,Age) 
+        result = prediction(country,year,location_type,cellphone_access,household_size,age_of_respondent,gender_of_respondent,relationship_with_head,marital_status,education_level,job_type) 
         st.success('Your diagnosis is {}'.format(result))
              
 if __name__=='__main__': 
