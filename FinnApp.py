@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 import streamlit.components.v1 as com
 
-com.tml("""
+com.html("""
 
 <html lang="en">
 <head>
