@@ -1,2 +1,0 @@
-PyCaret==3.0
-streamlit==0.75.0
